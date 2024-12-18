@@ -102,18 +102,55 @@ while (x <= 5) {
   console.log(x);
   x++;
 }
-*/
-let fruits = [
-  "Banana",
-  "Orange",
-  "Mango",
-  "Lichi",
-  "Apple",
-  "Juice",
-  "Lemon",
-  "usyfgvuwyfgv",
-];
-console.log(fruits);
+
+let fruits = ["Banana", "Orange", "Mango", "Lichi", "Apple", "Juice", "Lemon"];
+// console.log(fruits);
 for (let i = 0; i <= fruits.length - 1; i++) {
-  console.log(fruits[i]);
+  //   console.log(fruits[i]);
 }
+*/
+const ages = [12, 58, 65, 12, 84, 78, 54, 23, 45, 47, 22, 11];
+
+const newAgesEven = [];
+const newAgesOdd = [];
+
+for (let i = 0; i < ages.length; i++) {
+  let singleAge = ages[i];
+
+  if (singleAge % 2 === 0) {
+    newAgesEven.push(singleAge);
+  } else {
+    newAgesOdd.push(singleAge);
+  }
+}
+
+let total = 0;
+for (let x = 0; x < newAgesEven.length; x++) {
+  let singleValue = newAgesEven[x];
+  total = total + singleValue;
+}
+
+// JS Function
+// function logger(){}
+function caclAge(birthYear) {
+  let age = 2024 - birthYear;
+  return age;
+}
+const age1 = caclAge(1985);
+const age2 = caclAge(1990);
+const age3 = caclAge(1997);
+// console.log(age1, age2, age3);
+
+const numbers = [12, 58, 65, 12, 84, 78, 54, 23, 45, 47, 22, 11];
+let newAge = [14, 54, 84, 58, 4, 584, 95, 154];
+
+function arrSum(numbers) {
+  let sum = 0;
+  for (let number of numbers) {
+    sum = sum + number;
+  }
+  return sum;
+}
+let total1 = arrSum(numbers);
+let total2 = arrSum(newAge);
+console.log(total1, total2);
