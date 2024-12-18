@@ -58,7 +58,7 @@
 // const birthYear = 1990;
 // const shimul = ["Shimul", 2024 - birthYear, true];
 // console.log(2024 - birthYear);
-
+/*
 let fruits = ["Banana", "Orange", "Mango", "Lichi", "Apple"];
 fruits[2] = "Papaya";
 // fruits = ["Tomato", "Potato", "Onion"];
@@ -79,3 +79,41 @@ console.log(numbers);
 
 numbers.shift();
 console.log(numbers);
+*/
+
+// for loop, while loop
+// for(initialization; condition; update){}
+/*
+let sum = 0;
+for (let i = 1; i <= 20; i++) {
+  //   console.log(i);
+  sum = sum + i;
+}
+// console.log(sum);
+let added = 0;
+for (let i = 0; i <= 100; i = i + 2) {
+  added = added + i;
+}
+// console.log(added);
+
+// While loop
+let x = 0;
+while (x <= 5) {
+  console.log(x);
+  x++;
+}
+*/
+let fruits = [
+  "Banana",
+  "Orange",
+  "Mango",
+  "Lichi",
+  "Apple",
+  "Juice",
+  "Lemon",
+  "usyfgvuwyfgv",
+];
+console.log(fruits);
+for (let i = 0; i <= fruits.length - 1; i++) {
+  console.log(fruits[i]);
+}
